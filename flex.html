@@ -1,0 +1,47 @@
+<style>
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .one{
+        height:100px ;
+        flex-basis: 20%;
+        margin:5px ;
+        background-color: greenyellow;
+    }
+    @media  screen and (max-width:600px) {
+        .one{
+            flex-basis:40%;
+        }
+        
+    }
+    @media  screen and (max-width:800px) {
+        .one{
+            flex-basis:100%;
+        }
+        
+    }
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+
+</div>
